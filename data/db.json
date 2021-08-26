@@ -1,0 +1,24 @@
+{
+    "posts":[
+        {
+           "id": 0,
+           "title": "How to Host your Website/App on Netlify from GitHub",
+           "body": "'Netlify is a web developer platform that multiplies productivity. By unifying the elements of the modern decoupled web, from local development to advanced edge logic, Netlify enables a 10x faster path to much more performant, secure, and scalable websites and apps. A powerful server less platform with an intuitive git-based workflow' -Netlify Basically we can say Netlify is a platform in which developers can easily host their web applications, right from their git/GitHub and configure the deployment/build settings to their taste.We are going to look at hosting simple websites and web Apps on Netlify."
+        },
+        {
+            "id":1,
+            "title": "Postgresql vs MongoDb",
+            "body": "Aenean magna lorem, varius ut suscipit ut, iaculis id ipsum. Donec accumsan, velit in faucibus aliquet, mauris felis vestibulum nisl, porta facilisis dui sapien vel mauris. Mauris eu quam ac nisl ultricies condimentum sed eget nulla. Pellentesque nec ante nec augue mattis lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In ullamcorper arcu congue interdum porta. Fusce efficitur et nisi et facilisis."
+        },
+        {
+            "id":2,
+            "title": "How to deploy react apps to firebase",
+            "body": "ed turpis purus, hendrerit ac magna eu, luctus facilisis leo. Donec fermentum eu ipsum nec fringilla. Nam ut suscipit arcu. Suspendisse erat augue, convallis vitae accumsan id, interdum sollicitudin tellus. Maecenas imperdiet libero et tortor sagittis, id placerat purus pretium. Vivamus fermentum justo non metus tincidunt, volutpat mattis nisl placerat. Sed congue malesuada metus, non vulputate nisi egestas quis. Mauris sed suscipit justo. Maecenas id vestibulum sem."
+        },
+        {
+            "id": 3,
+            "title": "Welcome to Vuetify 3.00",
+            "body": "ed turpis purus, hendrerit ac magna eu, luctus facilisis leo. Donec fermentum eu ipsum nec fringilla. Nam ut suscipit arcu. Suspendisse erat augue, convallis vitae accumsan id, interdum sollicitudin tellus. Maecenas imperdiet libero et tortor sagittis, id placerat purus pretium. Vivamus fermentum justo non metus tincidunt, volutpat mattis nisl placerat. Sed congue malesuada metus, non vulputate nisi egestas quis. Mauris sed suscipit justo. Maecenas id vestibulum sem."
+        }
+    ]
+}
