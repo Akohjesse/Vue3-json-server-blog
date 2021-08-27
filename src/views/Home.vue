@@ -3,8 +3,8 @@
    <div v-if="error">
      {{error}}
    </div>
-   <div v-if="posts.length">
-      <PostList :posts="posts" />
+   <div class="post_container" v-if="posts.length">
+      <PostList class="PostList" :posts="posts" />
    </div>
    <div v-else>
      <h4>Loading....</h4>
@@ -27,3 +27,11 @@ export default {
   }
 }
 </script>
+
+
+<style lang="scss" scoped>
+  .PostList{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+</style>

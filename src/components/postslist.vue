@@ -15,5 +15,11 @@ export default {
 </script>
 
 <style>
-
+  .post-list{
+    width:80%;
+    margin: 50px auto;
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
 </style>

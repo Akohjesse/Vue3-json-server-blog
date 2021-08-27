@@ -1,13 +1,13 @@
 <template>
-   <div class="post">
-       <router-link :to="{name: 'Details', params: { id: post.id}}">
-           <h3>{{post.title}}</h3>
-            <p>{{snippet}}</p>
-       </router-link>
-       <span v-for="tag in post.tags" :key="tag">
-           #{{ tag }} 
-       </span>
-   </div>
+       <div class="item">
+               <router-link style="text-decoration: none;" :to="{name: 'Details', params: { id: post.id}}">
+                   <h3>{{post.title}}</h3>
+              </router-link>
+               <p>{{snippet}}....</p>
+             <span v-for="tag in post.tags" :key="tag">
+               #{{ tag }} 
+            </span>
+       </div>
 </template>
 
 <script>
@@ -23,6 +23,24 @@ setup(props){
 }
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+.item{
+    border-radius: 5px;
+    padding:20px;
+    height: 13em;
+    h3{
+        color:orange;
+        text-decoration: none;
+    }
+    p{
+        margin:5px 0px;
+    }
+    span{
+        margin-top:10px;
+        background: rgb(179, 179, 179);
+        padding:6px;
+        border-radius: 9px;
+        color: rgb(0, 0, 0);
+    }
+}
 </style>
