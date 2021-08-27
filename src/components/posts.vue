@@ -29,13 +29,14 @@ setup(props){
 .item{
     border-radius: 5px;
     padding:20px;
-    height: 13em;
     h3{
-        color:orange;
+        color:rgb(255, 145, 0);
         text-decoration: none;
     }
     p{
         margin:5px 0px;
+        text-align: left;
+        max-width: 79%;
     }
    .tags{
        margin:20px 0px;
