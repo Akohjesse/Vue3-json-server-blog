@@ -4,9 +4,11 @@
                    <h3>{{post.title}}</h3>
               </router-link>
                <p>{{snippet}}....</p>
-             <span v-for="tag in post.tags" :key="tag">
+                <div class="tags">
+                     <span v-for="tag in post.tags" :key="tag">
                #{{ tag }} 
             </span>
+                </div>
        </div>
 </template>
 
@@ -35,12 +37,15 @@ setup(props){
     p{
         margin:5px 0px;
     }
-    span{
-        margin-top:10px;
-        background: rgb(179, 179, 179);
+   .tags{
+       margin:20px 0px;
+        span{
+        background: rgb(97, 97, 97);
         padding:6px;
         border-radius: 9px;
-        color: rgb(0, 0, 0);
+        margin-right:5px;
+        color: rgb(255, 255, 255);
     }
+   }
 }
 </style>
